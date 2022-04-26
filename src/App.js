@@ -44,11 +44,14 @@ const App = () => {
             </li>
           </ul>
         </nav>
-        <div className="search_field">
-          <input className="nav_input" />
-          <button className="search_button">
-            <img alt="search-button" src={searchButton} />
-          </button>
+        <div className="search_area">
+          <label className="search_label" htmlFor="search">Search this site:</label>
+          <div className="search_field">
+            <input className="nav_input" id="search" name="search" />
+            <button className="search_button">
+              <img alt="search-button" src={searchButton} />
+            </button>
+          </div>
         </div>
       </header>
       <main>
@@ -237,7 +240,18 @@ const App = () => {
               Subscribe and be the first to know about our news and promotions.
             </span>
             <div className="subscribe_form">
-              <input className="footer_input" />
+              <div className="email_field">
+                <label className="label_email" htmlFor="footer_email">
+                  Email:
+                </label>
+                <input
+                  className="footer_input"
+                  type="email"
+                  id="footer_email"
+                  name="footer_email"
+                />
+              </div>
+              {/* <input className="footer_input" /> */}
               <button type="submit" className="subscribe_button">
                 Subscribe
               </button>
