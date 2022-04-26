@@ -119,27 +119,27 @@ const App = () => {
             </p>
             <ul className="contact_list">
               <li className="contact_item">
-                <img className="contact_icon" src={facebook} />
+                <img className="contact_icon" alt="facebook_icon" src={facebook} />
                 +380 93 15 32 456
               </li>
               <li className="contact_item">
-                <img className="contact_icon" src={facebook} />
+                <img className="contact_icon" alt="facebook_icon" src={facebook} />
                 example@gmail.com
               </li>
               <li className="contact_item">
-                <img className="contact_icon" src={facebook} />
+                <img className="contact_icon" alt="facebook_icon" src={facebook} />
                 Pidmurma 5a, Lviv
               </li>
             </ul>
             <ul className="facebook_list">
               <li>
-                <img src={facebook} />
+                <img src={facebook} alt="facebook_icon" />
               </li>
               <li>
-                <img src={facebook} />
+                <img src={facebook} alt="facebook_icon" />
               </li>
               <li>
-                <img src={facebook} />
+                <img src={facebook} alt="facebook_icon" />
               </li>
             </ul>
           </div>
